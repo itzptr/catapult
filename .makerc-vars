@@ -54,7 +54,7 @@ MAKEVAR_AUTO_UPDATE :=0
 
 # Setting this to 1 will freeze the update process and will not offer updates to any of the Catapult components
 # Use this carefully as you will fall behind the latest updates and it will become increasingly difficult to update Catapult at a later date
-MAKEVAR_FREEZE_UPDATE :=0
+MAKEVAR_FREEZE_UPDATE :=1
 
 # This is the webhook URL for Slack or Mattermost where you'll start receiving notifications about the deployment start and end
 # Define the URL to enable notifications
